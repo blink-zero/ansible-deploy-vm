@@ -1,8 +1,10 @@
+> Currently a work in progress
+
 # Ansible Deploy VM (Virtual Machine)
 
 <img alt="GitHub Release Date" src="https://img.shields.io/badge/Tested%20with%20Ansible%20version-2.9.27-orange?style=for-the-badge">
 
-### Access the domain/realm version of this playbook [here](https://github.com/blink-zero/ansible-deploy-vm-domain)
+### Access the non-domain/realm version of this playbook [here](https://github.com/blink-zero/ansible-deploy-vm)
 
 Very Simple Ansible playbook to automate the creation of virtual machines. 
 
