@@ -22,3 +22,9 @@
 **/*.ini
 /inventory_custom.ini
 
+# Extra Playbooks
+## Ignore Extra playbooks
+/production.yml
+/development.yml
+/testing.yml
+/staging.yml

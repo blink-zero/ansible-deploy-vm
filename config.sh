@@ -21,4 +21,16 @@ cp inventory_custom.ini.example inventory_development.ini
 cp inventory_custom.ini.example inventory_testing.ini
 
 echo
+echo "> Copying the extra playbook files..."
+
+cp main.yml staging.yml
+sed -i 's/vars\/main.yml/vars\/staging.yml/g' staging.yml
+cp main.yml production.yml
+sed -i 's/vars\/main.yml/vars\/production.yml/g' production.yml
+cp main.yml development.yml
+sed -i 's/vars\/main.yml/vars\/development.yml/g' development.yml
+cp main.yml testing.yml
+sed -i 's/vars\/main.yml/vars\/testing.yml/g' testing.yml
+
+echo
 echo "> Done."
